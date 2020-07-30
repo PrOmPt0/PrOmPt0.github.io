@@ -99,7 +99,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: matery
+# theme: matery
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
