@@ -861,19 +861,20 @@ canvas_ribbon:
 # Remember to use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Available values: local, jsdelivr, unpkg
-  internal: local
+  # internal: local
+  internal: jsdelivr
 
   # Internal version: 3.1.0
-  # anime: //cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js
+  anime: //cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js
   # anime: //unpkg.com/animejs@3.2.0/lib/anime.min.js
   # anime: //cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js
-  anime:
+  # anime:
 
   # Internal version: 5.13.0
-  # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
+  fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
   # fontawesome: //unpkg.com/@fortawesome/fontawesome-free@5/css/all.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
-  fontawesome:
+  # fontawesome:
 
   # Prism
   # prism: //unpkg.com/prismjs@1/components/prism-core.min.js
@@ -959,10 +960,10 @@ vendors:
 
   # Internal version: 3.1.1
   # Warning: motion won't work with animate.css version 3.2.0 or later
-  # animate_css: //cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css
+  animate_css: //cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css
   # animate_css: //unpkg.com/animate.css@3.1.1/animate.min.css
   # animate_css: //cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css
-  animate_css:
+  # animate_css:
 
   # Internal version: 1.0.2
   # pace: //unpkg.com/pace-js@1/pace.min.js

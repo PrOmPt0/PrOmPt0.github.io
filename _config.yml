@@ -108,3 +108,6 @@ deploy:
   type: git
   repository: git@github.com:PrOmPt0/PrOmPt0.github.io.git
   branch: master
+
+# Mini
+# all_minifier: true
