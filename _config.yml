@@ -109,5 +109,24 @@ deploy:
   repository: git@github.com:PrOmPt0/PrOmPt0.github.io.git
   branch: master
 
-# Mini
+# Mini css and js files
 # all_minifier: true
+js_concator:
+  enable: true
+
+html_minifier:
+  enable: true
+
+css_minifier:
+  enable: true
+
+js_minifier:
+  enable: true
+  mangle: true
+  silent: false
+  output:
+  compress:
+  exclude: 
+    - '*.min.js'    
+image_minifier:
+  enable: false    
