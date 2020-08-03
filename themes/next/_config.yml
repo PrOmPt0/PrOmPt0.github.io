@@ -508,7 +508,7 @@ math:
 
 # Easily enable fast Ajax navigation on your website.
 # For more information: https://github.com/next-theme/pjax
-pjax: false
+pjax: true
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox
@@ -521,7 +521,7 @@ mediumzoom: false
 
 # Vanilla JavaScript plugin for lazyloading images.
 # For more information: https://github.com/ApoorvSaxena/lozad.js
-lazyload: false
+lazyload: true
 
 # Pangu Support
 # For more information: https://github.com/vinta/pangu.js
@@ -578,7 +578,7 @@ comments:
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: darkness-4
   count: true
   #post_meta_order: 0
 
@@ -593,8 +593,8 @@ disqusjs:
   # For example:
   # api: https://disqus.skk.moe/disqus/
   api:
-  apikey: # Register new application from https://disqus.com/api/applications/
-  shortname: # See: https://disqus.com/admin/settings/general/
+  apikey: UjDfbCSWAHtlLHFUfUo54CfNYBX3SinXrC2MK30n6fLcJM3fXL8PSblJsDVFkUex # Register new application from https://disqus.com/api/applications/
+  shortname: darkness-4 # See: https://disqus.com/admin/settings/general/
 
 # Changyan
 changyan:
